@@ -1,2 +1,2 @@
-# trainings_5
+# trainings
 Solutions for trainings
