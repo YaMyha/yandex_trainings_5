@@ -4,7 +4,7 @@ from io import StringIO
 from task_3d import d
 
 
-class Task3CTest(unittest.TestCase):
+class Task3DTest(unittest.TestCase):
     @patch('builtins.input', side_effect=['4 2', '1 2 3 1'])
     @patch('sys.stdout', new_callable=StringIO)
     def test_1(self, mock_stdout, mock_input):
